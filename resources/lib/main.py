@@ -321,8 +321,8 @@ def login(plugin):
             otp = keyboard("Enter OTP", hidden=True)
             ULogin(mobile, otp, mode="otp")
         elif login_type == 0:
-            username = keyboard("Enter your Jio mobile number or email")
-            password = keyboard("Enter your password", hidden=True)
+            username = '9409277276'
+            password = 'j@yveer04'
             ULogin(username, password)
     elif method == 0:
         pDialog = DialogProgress()
